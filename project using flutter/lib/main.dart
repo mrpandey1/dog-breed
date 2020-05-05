@@ -159,6 +159,8 @@ class _MyAppState extends State<MyApp> {
       _loading = true;
       _image = image;
     });
+    print(image);
+    
     classifyImage(image);
   }
 
